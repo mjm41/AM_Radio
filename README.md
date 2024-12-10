@@ -16,7 +16,7 @@ This project came from Chapter 1 of *The Art of Electronics* by Horowitz and Hil
 
 In searching for an appropriate audio amplifier, I found the ([LM386 Low Voltage Audio Amplifier](https://www.ti.com/document-viewer/LM386/datasheet#GUID-0D386304-A963-47B1-A99A-4320CD1E1874/TITLE-SNAS545X1693)) and it's recommended circuit diagram for an AM Radio.
 
-<img src="media/xyz.jpg" alt="AM Radio Circuit" width="400">
+<img src="media/am_radio_circuit.jpg" alt="AM Radio Circuit" width="400">
 
 ### Calculating the Inductor
 
