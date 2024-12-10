@@ -77,5 +77,7 @@ To complete the AM radio circuit, I followed these steps:
 
 Once everything was connected, I turned on the circuit and tuned into the Bay Area's **860 kHz AM radio station**. Et voilà! I could listen to an interview with Liz Truss, former British PM, with quite a bit of background noise but still pretty cool. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wH2nYk54Lk0" frameborder="0" allowfullscreen></iframe>
+wH2nYk54Lk0
+
+[![Watch the video](https://img.youtube.com/vi/wH2nYk54Lk0/maxresdefault.jpg)](https://youtu.be/wH2nYk54Lk0)
 
