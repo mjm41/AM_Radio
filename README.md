@@ -44,4 +44,33 @@ I strung up my antenna and connected it to my breadboard. Here's how it looks:
   <img src="media/IMG_8500.HEIC" alt="Breadboard Connection" width="400">
 </div>
 
+### Completing the Circuit
+
+To complete the AM radio circuit, I followed these steps:
+
+1. **Connecting the LC Circuit:**
+   - I connected the LC circuit in parallel with the antenna.
+   <img src="media/IMG_8503.HEIC" alt="LC Circuit Parallel with Antenna" width="400">
+
+2. **Adding the Germanium Diode:**
+   - I added the germanium diode in series with the resistors leading to pin 2 of the LM386.
+   <img src="media/IMG_8505.HEIC" alt="Germanium Diode in Series" width="400">
+
+3. **Adding Remaining Parts:**
+   - I added the remaining components to the breadboard, including capacitors in parallel to achieve ~250 µF. All of this connects to the 8-ohm speaker.
+   <img src="media/IMG_8506.HEIC" alt="Remaining Circuit Parts on Breadboard" width="400">
+
+4. **Adding 8 ohm Speaker and Battery Connection:**
+   - The battery is not yet connected, but the battery connector is prepared to receive a 9V battery.
+   <img src="media/IMG_8507.HEIC" alt="Battery Connection Prepared" width="400">
+
+5. **Establishing Grounding:**
+   - Without a grounding rod, I ran a wire to an outdoor copper water pipe to serve as the ground connection.
+   <img src="media/IMG_8508.HEIC" alt="Grounding Connection to Copper Water Pipe" width="400">
+
+### Testing the Circuit
+
+Once everything was connected, I turned on the circuit and tuned into the Bay Area's **860 kHz AM radio station**. Et voilà! I could listen to an interview with Liz Truss, former British PM.
+
+[Watch the demonstration here](tbd-link-to-video)
 
