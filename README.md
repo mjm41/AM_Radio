@@ -35,8 +35,6 @@ Here's a closer look at my coil:
 
 <img src="media/IMG_8496.HEIC" alt="Inductor Coil" width="400">
 
-### Antenna
-
 ### Connecting the Antenna
 
 I strung up my antenna and connected it to my breadboard. Here's how it looks:
