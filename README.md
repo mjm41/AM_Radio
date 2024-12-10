@@ -10,7 +10,7 @@ This is my custom-built AM radio circuit, designed to pick up local stations. It
 
 ### Results
 
-I was only able to hear 2 stations, with 860 kHz coming in clearest. Even still there was quite a bit of background static / noise. My LC circuit didn't get me the range of stations I was hoping for. Also, being indoor without access to a window for my antenna might also be causing limitaitons. I left out a few parts designed to block noise, such as a 2200 pF capacitor between pin 2 of LM386 and ground as well as a ferrite bead between pin 5 and the 250 uF capacitor. 
+I was only able to hear 2 stations, with 860 kHz coming in clearest (see video at the bottom of this page). Even still there was quite a bit of background static / noise. My LC circuit didn't get me the range of stations I was hoping for. Also, being indoor without access to a window for my antenna might also be causing limitaitons. I left out a few parts designed to block noise, such as a 2200 pF capacitor between pin 2 of LM386 and ground as well as a ferrite bead between pin 5 and the 250 uF capacitor. 
 
 ### My Understanding of Why This Works
 
