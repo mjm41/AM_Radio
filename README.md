@@ -25,6 +25,7 @@ Given that my variable capacitor is approximately **365 pF** ([spec sheet](https
 To simplify the process of designing the inductor, I used an [online calculator](http://www.circuits.dk/calculator_single_layer_aircore.htm) to determine the number of turns needed. Using a **3-inch empty plastic bottle** as the core and **18 AWG enamel copper wire**, the result was approximately **46-47 turns** to generate 150 µH of inductance.
 
 Here's a closer look at my coil:
-<img src="media/coil_image.jpg" alt="Inductor Coil" width="400">
+
+<img src="media/IMG_8496.HEIC" alt="Inductor Coil" width="400">
 
 
