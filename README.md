@@ -49,7 +49,7 @@ I strung up my antenna and connected it to my breadboard. Here's how it looks:
 To complete the AM radio circuit, I followed these steps:
 
 1. **Connecting the LC Circuit:**
-   - I connected the LC circuit in parallel with the antenna.
+   - As per the circuit diagram in *The Art of Electronics*, I connected the LC circuit to ground and in parallel with the rest of the circuit (before the germanium diode).
 
    <img src="media/IMG_8503.HEIC" alt="LC Circuit Parallel with Antenna" width="400">
 
