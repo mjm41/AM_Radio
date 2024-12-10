@@ -18,9 +18,7 @@ This project came from Chapter 1 of *The Art of Electronics* by Horowitz and Hil
 
 From section 1.7.14 on **Resonant Circuits** in *The Art of Electronics*, I learned the formula for the resonant frequency:
 
-\[
-f_0 = \frac{1}{2\pi\sqrt{LC}}
-\]
+f₀ = 1 / (2π√(LC))
 
 Given that my variable capacitor is approximately **365 pF** ([spec sheet](https://www.tubesandmore.com/products/capacitor-365pf-variable-single-section)), I calculated that my inductor needed to be about **150 µH** to access frequencies along the AM radio spectrum.
 
