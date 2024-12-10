@@ -42,7 +42,7 @@ Here's a closer look at my coil:
 I strung up my antenna and connected it to my breadboard. Here's how it looks:
 
 <div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="media/antenna.jpg" alt="Antenna Setup" width="300">
+  <img src="media/IMG_8497.HEIC" alt="Antenna Setup" width="300">
   <img src="media/breadboard_connection.jpg" alt="Breadboard Connection" width="300">
 </div>
 
