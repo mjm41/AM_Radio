@@ -5,18 +5,21 @@ This is my custom-built AM radio circuit, designed to pick up local stations. It
 - A germanium diode for signal detection.
 - A custom LC circuit for tuning.
 - An LM386 amplifier for audio output.
-- 9V battery for power to audio amplifier.
+- A 9V battery for powering the audio amplifier.
 
-The result is only about 2 stations with 860 kHz coming in clearest. 
+The result is only about 2 stations, with 860 kHz coming in clearest.
 
 ### Circuit Diagrams
+
 This project came from Chapter 1 of *The Art of Electronics* by Horowitz and Hill. On page 56, they introduced the circuit diagram that explains the LC circuit.
 
 <img src="media/IMG_8498.HEIC" alt="LC Circuit" width="400">
 
-In searching for an appropriate audio amplifier, I found the ([LM386 Low Voltage Audio Amplifier](https://www.ti.com/document-viewer/LM386/datasheet#GUID-0D386304-A963-47B1-A99A-4320CD1E1874/TITLE-SNAS545X1693)) and it's recommended circuit diagram for an AM Radio.
+In searching for an appropriate audio amplifier, I found the [LM386 Low Voltage Audio Amplifier](https://www.ti.com/document-viewer/LM386/datasheet#GUID-0D386304-A963-47B1-A99A-4320CD1E1874/TITLE-SNAS545X1693) and its recommended circuit diagram for an AM radio.
 
 <img src="media/am_radio_circuit.png" alt="AM Radio Circuit" width="600">
+
+Lastly, I did not have a capacitor small enough to substitute for C1 or the ferrite bead in parallel with the RC circuit, so I skipped both of those parts in this circuit.
 
 ### Calculating the Inductor
 
@@ -31,5 +34,6 @@ To simplify the process of designing the inductor, I used an [online calculator]
 Here's a closer look at my coil:
 
 <img src="media/IMG_8496.HEIC" alt="Inductor Coil" width="400">
+
 
 
