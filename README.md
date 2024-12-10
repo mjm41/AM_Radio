@@ -54,7 +54,7 @@ To complete the AM radio circuit, I followed these steps:
    <img src="media/IMG_8503.HEIC" alt="LC Circuit Parallel with Antenna" width="400">
 
 2. **Adding the Germanium Diode:**
-   - I added the germanium diode in series with the resistors leading to pin 2 of the LM386.
+   - I added the germanium diode in series with the resistors leading to pin 2 of the LM386. The variable resistor shown is a 10K-ohm resistor which helps control the volume. 
    
    <img src="media/IMG_8505.HEIC" alt="Germanium Diode in Series" width="400">
 
@@ -77,5 +77,5 @@ To complete the AM radio circuit, I followed these steps:
 
 Once everything was connected, I turned on the circuit and tuned into the Bay Area's **860 kHz AM radio station**. Et voilà! I could listen to an interview with Liz Truss, former British PM, with quite a bit of background noise but still pretty cool. 
 
-[Watch the demonstration here](tbd-link-to-video)
+<iframe width="560" height="315" src="https://www.youtube.com/shorts/wH2nYk54Lk0" frameborder="0" allowfullscreen></iframe>
 
