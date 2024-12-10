@@ -79,5 +79,3 @@ Once everything was connected, I turned on the circuit and tuned into the Bay Ar
 
 <video src='https://youtu.be/wH2nYk54Lk0' width=180/>
 
-[![Watch the video](https://img.youtube.com/vi/wH2nYk54Lk0/maxresdefault.jpg)](https://youtu.be/wH2nYk54Lk0)
-
