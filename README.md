@@ -2,12 +2,27 @@
 
 This is my custom-built AM radio circuit, designed to pick up local stations. It uses:
 
-- A germanium diode for signal detection.
-- A custom LC circuit for tuning.
-- An LM386 amplifier for audio output.
+- Wire antenna to receive signal.
+- A germanium diode: "a half-wave rectifier, which passes mostly the positive half-cycles of the modulated carrier wave".
+- A custom LC circuit for tuning to the resonant frequency (radio station).
+- A Texas Instument LM386 amplifier for audio output.
 - A 9V battery for powering the audio amplifier.
 
-The result is only about 2 stations, with 860 kHz coming in clearest.
+### Results
+
+I was only able to hear 2 stations, with 860 kHz coming in clearest. Even still there was quite a bit of background static / noise. My LC circuit didn't get me the range of stations I was hoping for. Also, being indoor without access to a window for my antenna might also be causing limitaitons. I left out a few parts designed to block noise, such as a 2200 pF capacitor between pin 2 of LM386 and ground as well as a ferrite bead between pin 5 and the 250 uF capacitor. 
+
+### My Understanding of Why This Works
+
+The antenna picks up a variety of signals across different frequencies. When these signals enter the circuit, they encounter a "fork in the road": they can either pass through to the speaker or enter the LC circuit. The job of the LC circuit is to **resonate** at the desired frequency (as determined by the *resonant frequency formula* below) and divert all other frequencies. This allows only the frequency of interest to continue through the circuit.
+
+The selected signal then passes through the germanium diode, which **rectifies** the signal by converting the modulated radiofrequency carrier wave into an audiofrequency waveform. The diode accomplishes this by only allowing current to flow in one direction, effectively preserving the *envelope* of the AM signal.
+
+The 10K variable resistor and 2200 pF capacitor are intended to form a **low-pass filter**, which smooths the rectified signal by removing high-frequency remnants of the carrier. Since I did not include the capacitor, my circuit allows some high-frequency carrier components to pass through, resulting in a less smooth audio signal.
+
+Finally, the LM386 audio amplifier takes the processed signal and amplifies it to drive the 8-ohm speaker. While I don't fully understand all the inner workings of the LM386 yet, it serves as a crucial "black box" in this project, and I look forward to learning more about its operation in the future.
+
+Please give me feedback! See below for more detail on the build.
 
 ### Circuit Diagrams
 
@@ -19,7 +34,7 @@ In searching for an appropriate audio amplifier, I found the [LM386 Low Voltage 
 
 <img src="media/am_radio_circuit.png" alt="AM Radio Circuit" width="600">
 
-Lastly, I did not have a capacitor small enough to substitute for C1 or the ferrite bead in parallel with the RC circuit, so I skipped both of those parts in this circuit.
+Lastly, I did not have a capacitor small enough (C1 (in LM386 specs) or C2 in *The Art of Electronics*) or the ferrite bead in parallel with the RC circuit, so I skipped both of those parts in my resulting circuit.
 
 ### Calculating the Inductor
 
